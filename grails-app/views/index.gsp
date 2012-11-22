@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Test3</title>
+		<title>Test</title>
 	</head>
 	<body>
 		<div class="container">
