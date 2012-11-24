@@ -42,7 +42,6 @@ grails.project.dependency.resolution = {
 
 		// Spring Security
 		runtime ":spring-security-core:1.2.7.3"
-		//runtime ":spring-security-facebook:0.9"
 		//runtime ":spring-security-openid:1.0.4"
 
 		// Twitter Bootstrap
@@ -54,7 +53,7 @@ grails.project.dependency.resolution = {
 
         //compile ':cache:1.0.0'
         compile ':cache-headers:1.1.5'
-		
 		compile ":simple-captcha:0.9.1"
+		compile ":spring-security-facebook:0.9"
     }
 }
