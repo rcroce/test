@@ -33,8 +33,8 @@ grails.project.dependency.resolution = {
 
     plugins {
         runtime ":hibernate:$grailsVersion"
-        runtime ":jquery:1.8.0"
-        runtime ":resources:1.1.6"
+        runtime ":jquery:1.8.3"
+        runtime ":resources:1.2.RC2"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         runtime ":zipped-resources:1.0"
@@ -42,7 +42,6 @@ grails.project.dependency.resolution = {
 
 		// Spring Security
 		runtime ":spring-security-core:1.2.7.3"
-		//runtime ":spring-security-openid:1.0.4"
 
 		// Twitter Bootstrap
 		runtime ":twitter-bootstrap:2.2.1"
@@ -51,9 +50,12 @@ grails.project.dependency.resolution = {
 
         runtime ":database-migration:1.1"
 
-        //compile ':cache:1.0.0'
+		compile ":jquery-ui:1.8.24"
+		compile ":mail:1.0.1"
+		compile ":famfamfam:1.0.1"
+		compile ":spring-security-ui:0.2"
+		
+		compile ':cache:1.0.1'
         compile ':cache-headers:1.1.5'
-		compile ":simple-captcha:0.9.1"
-		compile ":spring-security-facebook:0.9"
     }
 }
